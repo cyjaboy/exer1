@@ -34,6 +34,6 @@ function displayQuotient() {
 
 document.getElementById('sumButton').addEventListener("click", displaySum);
 document.getElementById('differenceButton').addEventListener("click", displayDifference);
-document.getElementById('prodcutButton').addEventListener("click", displayProduct);
+document.getElementById('productButton').addEventListener("click", displayProduct);
 document.getElementById('quotientButton').addEventListener("click", displayQuotient);
 
