@@ -7,3 +7,10 @@ function displaySum() {
 }
 
 document.getElementById('sumButton').addEventListener("click", displaySum);
+
+
+ let difference = firstNum - secondNum;
+  document.getElementById("answer").innerHTML = ` ${firstNum} - ${secondNum}, equals to ${total}` ;
+}
+
+document.getElementById('subtractButton').addEventListener("click", displayDifference);
