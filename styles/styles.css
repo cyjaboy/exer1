@@ -18,3 +18,11 @@ em {
   /* background-color: #000000; */
   color: #000000; /* Keep the text color */
 }
+
+/* styles.css */
+
+/* Center-align text */
+.center {
+  text-align: center;
+}
+
