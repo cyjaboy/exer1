@@ -11,9 +11,9 @@
   <h1>Static Calculator</h1>
   <h2>CYRUS</h2>
   <h3>BSIT shesh</h3>
-  <p class="center">CLICK REFRESH TO CHANGE THE VALUE OF NUMBERS</p>
-  <p class="center">This is a static calculator with RANDOM values:</p>
-  <ul class="center">
+  <p>CLICK REFRESH TO CHANGE THE VALUE OF NUMBERS</p>
+  <p>This is a static calculator with RANDOM values:</p>
+  <ul>
     <li>Show sum</li>
     <li>Show difference</li>
     <li>Show product</li>
@@ -25,8 +25,19 @@
   <p>First number: <span id="firstNum"></span></p>
   <p>Second number: <span id="secondNum"></span></p>
 
-  <!-- Rest of your HTML content -->
+  <p>Therefore, the sum of the two of those numbers is: <span id="sumanswer"></span></p>
+  <input type="button" id="sumButton" value="Click to add!">
 
+  <p>Therefore, the difference of the two of those numbers is: <span id="differenceanswer"></span></p>
+  <input type="button" id="differenceButton" value="Click to subtract!">
+
+  <p>Therefore, the difference of the two of those numbers is: <span id="productanswer"></span></p>
+  <input type="button" id="productButton" value="Click to multiply!">
+
+  <p>Therefore, the difference of the two of those numbers is: <span id="quotientanswer"></span></p>
+  <input type="button" id="quotientButton" value="Click to divide!">
+
+  <!-- Add Refresh button -->
   <button id="refreshButton">Refresh</button>
 
   <script src="./script/app.js"></script>
