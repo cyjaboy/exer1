@@ -16,8 +16,29 @@ em {
   color: #000000; /* Keep the text color */
 }
 
+/* styles.css */
 
+/* Center-align text */
 .center {
   text-align: center;
 }
+
+/* Add borders to paragraphs and list items */
+p {
+  border: 1px solid #000; /* Border style and color */
+  padding: 10px; /* Add padding for spacing */
+  margin: 10px 0; /* Add margin for spacing */
+}
+
+ul {
+  list-style-type: none; /* Remove default list bullet points */
+  padding: 0; /* Remove default list padding */
+}
+
+li {
+  border: 1px solid #000; /* Border style and color */
+  padding: 5px 10px; /* Add padding for spacing */
+  margin: 5px 0; /* Add margin for spacing */
+}
+
 
